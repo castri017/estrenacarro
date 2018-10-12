@@ -1,0 +1,6 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^estrenarcarro\.tk$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.estrenarcarro\.tk$
+RewriteRule ^/?$ "http\:\/\/estrenarcarro\.tk\/pagina" [R=301,L]
+
